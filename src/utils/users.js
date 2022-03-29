@@ -58,12 +58,6 @@ const getUsersInRoom = (room) => {
     return allUsers
 }
 
-addUser({
-    id: 36,
-    username: "Som ",
-    room: "bbsr"
-})
-
 module.exports = {
     addUser,
     removeUser,
